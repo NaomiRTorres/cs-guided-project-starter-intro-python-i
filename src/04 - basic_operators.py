@@ -39,12 +39,20 @@ YOU DO
 3 minute timer
 """
 # assign 1 to `x`
+x = 1
 # assign 2 to `y`
+y = 2
 
 # Create two lists called `x_list` and `y_list`
 # make `x_list` contain 10 instances of `x`
+x_list = [x] * 10
+
 # make `y_list` contain 10 instances of `y`
+y_list = [y] * 10
 
 # create a list called `combined` that
 # contains 10 `x`s and 10 `y`s by concatenating
 # `x_list` and `y_list`
+
+combined = x_list + y_list
+print(combined)

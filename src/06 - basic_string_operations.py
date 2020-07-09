@@ -35,7 +35,7 @@ print(astring[3:7:2])
 astring = "0123456789"
 print(astring[::-1])
 
-# 8. upper and lower
+# 8. upper and lowercase
 astring = "Hello world!"
 print(astring.upper())
 print(astring.lower())
@@ -55,26 +55,39 @@ YOU DO
 5 minute timer
 """
 # assign the string "Strings are awesome!" to a variable
+my_string = "Strings are awesome!"
 
 # print the length of the string
+print(len(my_string))
 
 # print the first occurrence of "a"
+print(my_string.index("a"))
 
 # print the count of the number of "a"s in the string
+print(my_string.count("a"))
 
 # print the first five characters
+print(my_string[:5])
 
 # print the last five characters in reverse
+print(my_string[: -6:-1])
 
 # print the 17th character
+print(my_string[16])
 
 # print all the odd indexes
+print(my_string[1::2])
 
 # print the string in all uppercase
+print(my_string.upper())
 
 # print the string in all lowercase
+print(my_string.lower())
 
 # check that the string starts with "S" and ends with "!"
+print(my_string.startswith("S"))
+print(my_string.endswith("!"))
 
 # split the string on the spaces
+print(my_string.split(" "))
 
